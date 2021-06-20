@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<HTML>
+	<HEAD>
+		<TITLE>ASSIGNMENT</TITLE>
+	</HEAD>
+	<BODY>
+		<p>
+		<H1>Zoo Keeper Application Form</H1>
+		<H3>Please complete the form. Mandatory feilds are marked with a *</H3>
+		</p>
+		<FIELDSET>
+			<LEGEND><H3>CONTACT DETAILS</H3></LEGEND>
+			<FORM novalidate>
+				<TABLE CELLSPACING='0' CELLPADDING='5' WIDTH='600'>
+					<TR>
+						<TD><label for='name'>Name*</label></TD>
+						<TD><input type='text' id='name' /></TD>
+					</TR>
+					<TR>
+						<TD><label for='telephone'>Telephone</label></TD>
+						<TD><input type='telephone' id='telephone' /></TD>
+					</TR>
+					<TR>
+						<TD><label for='email'>Email*</label></TD>
+						<TD><input type='email' id='email' /></TD>
+					</TR>
+				</Table>
+			</Form>
+		</FIELDSET>
+		
+		<FIELDSET>
+			<LEGEND><H3>PERSONAL INFORMATION</H3></LEGEND>
+			<FORM novalidate>
+				<TABLE CELLSPACING='0' CELLPADDING='5' WIDTH='600'>
+					<TR>
+						<TD><label for='age'>*Age</label></TD>
+						<TD><input type='age' id='age' /></TD>
+					</TR>
+					<TR>
+						<TD>Gender</TD>
+						<TD>
+							<SELECT>
+									<OPTION name='gender'>MALE</OPTION>
+									<OPTION name='gender'>FEMALE</OPTION>
+							</SELECT>
+						</TD>	
+					</TR>
+					<TR>
+						<TD>When did you<br>first know you<br>wanted to be a<br>zoo-keeper?</TD>
+						<TD><textarea name='address' rows='5' cols='25'></textarea></TD>
+					</TR>
+				</Table>
+			</Form>
+		</FIELDSET>
+		
+		<FIELDSET>
+			<LEGEND><H3>PICK YOUR FAVORITE ANIMALS</H3></LEGEND>
+			<FORM novalidate>
+				<TABLE CELLSPACING='0' CELLPADDING='5' WIDTH='600'>
+					<TR>
+						<TD><input type='checkbox' value='cat' name='cat' id='cat' />
+								<label for='cat'>Cat</label>&nbsp;&nbsp;</TD>
+						<TD><input type='checkbox' value='zebra' name='zebra' id='zebra' />
+								<label for='zebra'>Zebra</label>&nbsp;&nbsp;</TD>
+						<TD><input type='checkbox' value='annaconda' name='annaconda' id='annaconda' />
+								<label for='annaconda'>Annaconda</label>&nbsp;&nbsp;</TD>
+						<TD><input type='checkbox' value='human' name='human' id='human' />
+								<label for='human'>Human</label>&nbsp;&nbsp;
+						</TD>
+					</TR>
+					<TR>
+						<TD><input type='checkbox' value='elephant' name='elephant' id='elephant' />
+								<label for='elephant'>Elephant</label>&nbsp;&nbsp;</TD>
+						<TD><input type='checkbox' value='whildebeets' name='whildebeets' id='whildebeets' />
+								<label for='whildebeets'>Whildebeets</label>&nbsp;&nbsp;</TD>
+						<TD><input type='checkbox' value='pigeon' name='pigeon' id='pigeon' />
+								<label for='pigeon'>Pigeon</label>&nbsp;&nbsp;</TD>
+						<TD><input type='checkbox' value='crab' name='crab' id='crab' />
+								<label for='crab'>crab</label>&nbsp;&nbsp;
+						</TD>
+					</TR>
+				</Table>
+			</Form>
+		</FIELDSET>
+		<BR>
+		<input type='submit' value='Submit Application' /><BR><BR><BR>
+	</BODY>
+</HTML>
